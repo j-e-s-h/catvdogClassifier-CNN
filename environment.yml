@@ -1,0 +1,25 @@
+# conda env create --file environment.yml
+
+name: catdogclassifier_cnn
+channels:
+  - anaconda
+  - conda-forge
+  - defaults
+dependencies:
+  - fs
+  - jupyter
+  - jupyterlab
+  - matplotlib
+  - numpy
+  - pandas
+  - pathlib
+  - pip
+  - plotly
+  - pyprojroot
+  - python=3.9
+  - scipy
+  - seaborn
+  - sklearn
+  - pip:
+    - pyhere
+    
