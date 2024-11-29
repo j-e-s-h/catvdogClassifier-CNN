@@ -1,12 +1,21 @@
-# catdogClassifier-CNN
+# Cat & Dog Convolutional Neural Network Classifier
 
 By: J. E. Salgado-Hernández
 
-Image classifier for cats and dogs using a Convolutional Neural Network.
+Image classifier for cats and dogs using a Convolutional Neural Network. Dataset was from [Kaggle](https://www.kaggle.com/competitions/dogs-vs-cats) competition. On test set, the accuracy reached up to 84%.
 
-## License
+## Requirements
+```
+* python 3.9
+* keras 3.5.0
+* matplotlib 3.7.1
+* tensorflow 2.17.0
+```
 
-MIT
+For a more complete environment. Use the following command using **conda** to create a virtual environment.
+```
+conda env create -f environment.yml
+```
 
 ## Project Organization
 
@@ -18,10 +27,7 @@ MIT
     ├── README.md          <- The top-level README for developers using this project.
     ├── install.md         <- Detailed instructions to set up the virtual
     |                         environment of this project.
-    ├── data
-    │   ├── raw            <- The original, immutable data dump.
-    │   ├── interim        <- Intermediate data that has been transformed.
-    │   └── processed      <- The final, canonical data sets for modeling.
+    ├── data               <- Data for this project.
     │
     ├── utils              <- Scripts to help with common tasks.
     │
@@ -29,3 +35,11 @@ MIT
     |
     └── reports            <- Generated analysis as HTML, PDF, LaTeX, etc.
         └── figures        <- Generated graphics and figures to be used in reporting.
+
+
+
+
+
+## License
+
+MIT

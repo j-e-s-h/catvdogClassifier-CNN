@@ -21,5 +21,7 @@ dependencies:
   - seaborn
   - sklearn
   - pip:
+    - keras==3.5.0
+    - tensorflow==2.17.0
     - pyhere
     
